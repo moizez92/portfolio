@@ -1,0 +1,48 @@
+
+.content_kontakt {}
+.content_conteiner_kontakt {
+    max-width: 1100px;
+    margin:0px auto;
+}
+.content_body_kontakt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forma {}
+.svyaz p{
+    color:#252525;
+    font-size: 20px;
+}
+.svyaz p a{
+    color:#252525;
+    text-decoration: none;
+}
+.footer{
+    top: 37px;
+}
+
+
+@media (max-width: 768px){
+    .content_body_kontakt{
+        flex-direction: column;
+    }
+    .forma{order: 2;}
+    .svyaz{order: 1;}
+    .wrapper{
+        top: 40px;
+    }
+}
+@media (max-width: 415px){
+    .svyaz p{
+        font-size: 24px;
+}
+    .forma{font-size: 22px;}
+}
+
+@media (max-width: 376px){
+    .svyaz p{
+    font-size: 26px;
+}
+    .forma{font-size: 24px;}
+}
